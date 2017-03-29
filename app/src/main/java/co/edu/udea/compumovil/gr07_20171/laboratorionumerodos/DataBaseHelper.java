@@ -60,7 +60,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         values.put(USER_NAME, password);
         values.put(USER_EMAIL, email);
         values.put(USER_AGE, age);
-
         db.insert(TABLE_NAME_USER, null, values);
         db.close();
 
